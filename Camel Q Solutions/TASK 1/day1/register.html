@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+</head>
+
+<body>
+    <fieldset>
+        <form action="./registersucessfull.html">
+            <center>
+                <h1>Registeration Page</h1>
+                <br><br>
+                <input type="text" placeholder="username" required pattern="[a-zA-Z]+" minlength="3"
+                    maxlength="15"><br><br>
+                <input type="password" placeholder="password"
+                    pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*[\d])(?=.*[$%&#@]).{8,16}" maxlength="16" minlength="4"><br><br>
+                <input type="email" placeholder="email" required placeholder="Ex--xyz@gmail.com"
+                    pattern="[a-z\d]+@gmail.com"><br><br>
+                <!-- <button>
+                    <a href="./registersuccess.html">register</a>
+                </button> -->
+                <input type="submit" value="register" placeholder="register">
+            </center>
+        </form>
+
+    </fieldset>
+
+</body>
+
+</html>
